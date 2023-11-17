@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> Explore Progress-Steps, a compact website crafted with HTML, CSS, SCSS, and TypeScript. Utilizing linters, this project ensures bug-free functionality and clean code. Dive into the live demo for an interactive experience!
+> Explore Progress-Steps, a compact website crafted with HTML, CSS, SCSS, and TypeScript. Utilizing linters, this project ensures bug-free functionality and clean code build with Web Pack. Dive into the live demo for an interactive experience!
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
@@ -39,6 +39,7 @@
   <li><a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript</a></li>
   <li><a href="https://stylelint.io/">Html/CSS Linters</a></li>
   <li><a href="https://eslint.org/">Html/TsLinters</a></li>
+    <li><a href="https://webpack.js.org/">Web Pack</a></li>
   </ul>
 </details>
 
