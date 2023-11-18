@@ -1,6 +1,82 @@
 body {
   padding: 0;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
-/*# sourceMappingURL=style.css.map */
+.header {
+  text-align: center;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.header .container::before {
+  content: "";
+  background-color: #e0e0e0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+}
+
+.header .progress {
+  background-color: #3498db;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 50%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.header .cercle {
+  background-color: white;
+  color: rgba(153, 153, 153, 0.6);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e0e0e0;
+  transition: 0.4s ease;
+}
+
+.header .cercle.active {
+  border-color: #3498db;
+}
+
+.header .btn {
+  background-color: #3498db;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.header .btn:active {
+  transform: scale(0.95);
+}
+
+.header .btn:disabled {
+  background-color: rgba(153, 153, 153, 0.6);
+}
